@@ -17,7 +17,7 @@ const Contact = () => {
     >
       <div className="flex flex-col gap-4 w-full desktop:w-1/3 relative desktop:top-24 desktop:left-24">
         <a
-          href="mailto:iq.night.georgia@gmail.com"
+          href="mailto:info@iqnight.app"
           className="cursor-pointer flex items-center gap-2"
           style={{ textDecoration: "underline", color: theme.text }}
         >
@@ -26,7 +26,7 @@ const Contact = () => {
             className="text-md desktop:text-xl"
             style={{ color: theme.text }}
           >
-            iq.night.georgia@gmail.com
+            info@iqnight.app
           </span>
         </a>
         <div
