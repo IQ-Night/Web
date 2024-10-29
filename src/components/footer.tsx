@@ -25,20 +25,16 @@ export const Footer = () => {
       border-t-[0.5px] border-t-[rgba(255,255,255,0.1)]
       flex-col"
     >
-      <div className="w-full flex flex-col desktop:flex-row desktop:items-center desktop:justify-between gap-12">
+      <div className="w-full flex flex-col desktop:flex-row desktop:items-center desktop:justify-between gap-[32px]">
         <Link
           href="/"
-          className="desktop:w-1/3 flex items-center gap-4 scale-up cursor-pointer"
+          className="desktop:w-1/3 flex items-center scale-up cursor-pointer"
         >
-          <div className="relative w-[100px] h-[35px] flex items-center justify-center">
-            <Img
-              src={theme.id === "light" ? "/logo-black.png" : "/sarko-logo.png"}
-              alt="Sarko"
-              style={{ width: "100%", height: "100%" }}
-            />
+          <div className="relative  flex items-center justify-center text-[white] text-[28px] font-[700]">
+            IQ Night
           </div>
         </Link>
-        <div className="desktop:w-1/3 flex items-center desktop:justify-center gap-4">
+        <div className="desktop:w-1/3 flex items-center desktop:justify-end gap-4">
           <a
             href={
               isMobile
@@ -48,7 +44,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook color={theme.text} size={isMobile ? 24 : 20} />
+            <FaFacebook color={theme.text} size={isMobile ? 20 : 20} />
           </a>
           <a
             href={
@@ -59,7 +55,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram color={theme.text} size={isMobile ? 24 : 20} />
+            <FaInstagram color={theme.text} size={isMobile ? 20 : 20} />
           </a>
           {/* <a
             href={
@@ -83,45 +79,17 @@ export const Footer = () => {
           >
             <FaYoutube color={theme.text} size={20} />
           </a> */}
-          <a
-            href={isMobile ? "tg://resolve?domain=DG3IK" : "https://t.me/DG3IK"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTelegram color={theme.text} size={isMobile ? 24 : 20} />
-          </a>
-          <a
-            href={
-              isMobile
-                ? "whatsapp://send?phone=+995597233355"
-                : "https://wa.me/+995597233355"
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp color={theme.text} size={isMobile ? 24 : 20} />
-          </a>
-          {/* <a
-            href={
-              isMobile
-                ? "linkedin://in/sarko-events-21438531a"
-                : "https://www.linkedin.com/in/sarko-events-21438531a"
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin color={theme.text} size={20} />
-          </a> */}
+
           <a
             href="mailto:sarko.events@Gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <MdEmail color={theme.text} size={isMobile ? 28 : 24} />
+            <MdEmail color={theme.text} size={isMobile ? 24 : 24} />
           </a>
         </div>
 
-        <div className="desktop:w-1/3 flex justify-end desktop:items-center flex-col desktop:flex-row gap-2 desktop:gap-8">
+        {/* <div className="desktop:w-1/3 flex justify-end desktop:items-center flex-col desktop:flex-row gap-2 desktop:gap-8">
           <div
             onClick={() => setLanguage("en")}
             style={{
@@ -168,7 +136,7 @@ export const Footer = () => {
           >
             Русский
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div

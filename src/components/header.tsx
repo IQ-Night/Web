@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import HeadRoom from "react-headroom";
 import { CgMenuRight } from "react-icons/cg";
 import Img from "./image";
+import { TbMenuDeep } from "react-icons/tb";
 
 const Header = () => {
   // theme
@@ -19,13 +20,7 @@ const Header = () => {
       upTolerance={10}
       className="fixed w-full z-10"
       style={{
-        display:
-          loading ||
-          pathname.includes("/projects/") ||
-          (pathname?.split("/")[1] === "whatwecreate" &&
-            pathname?.split("/")[3])
-            ? "none"
-            : "flex",
+        display: loading || pathname.includes("/projects/") ? "none" : "flex",
         backdropFilter: "blur(10px)",
         WebkitBackdropFilter: "blur(10px)",
       }}
@@ -46,12 +41,8 @@ const Header = () => {
           href="/"
           className="flex items-center gap-4 scale-up cursor-pointer"
         >
-          <div className="relative w-[140px] h-[50px] flex items-center justify-center">
-            <Img
-              src="/sarko-logo.png"
-              alt="Sarko"
-              style={{ width: "100%", height: "100%" }}
-            />
+          <div className="relative w-[140px] h-[50px] flex items-center justify-center text-[32px] font-[700] text-[white]">
+            IQ Night
           </div>
         </Link>
 
@@ -76,7 +67,7 @@ const Header = () => {
           })}
         </div>
         <div className="desktop:hidden" onClick={() => setMobileMenu(true)}>
-          <CgMenuRight color={theme.active} size={32} />
+          <TbMenuDeep color={theme.active} size={32} />
         </div>
       </header>
     </HeadRoom>

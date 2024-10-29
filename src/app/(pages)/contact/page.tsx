@@ -27,12 +27,9 @@ const Contact = () => {
       style={{ display: loading ? "none" : "flex" }}
       className="oveflow-hidden w-[100%] slide-in-top pt-[100px] desktop:pt-[72px] flex-col desktop:flex-row items-center desktop:items-start px-6 desktop:px-[5%] gap-4 desktop:gap-8 pb-[64px] desktop:pb-[8px]"
     >
-      <div className="w-full desktop:w-1/3 flex justify-center">
-        <RequestForm />
-      </div>
       <div className="flex flex-col gap-4 w-full desktop:w-1/3 relative desktop:top-24 desktop:left-24">
         <a
-          href="mailto:sarko.events@Gmail.com"
+          href="mailto:iq.night.georgia@gmail.com"
           className="cursor-pointer flex items-center gap-2"
           style={{ textDecoration: "underline", color: theme.text }}
         >
@@ -41,7 +38,7 @@ const Contact = () => {
             className="text-md desktop:text-xl"
             style={{ color: theme.text }}
           >
-            Sarko.events@gmail.com
+            iq.night.georgia@gmail.com
           </span>
         </a>
         <div
@@ -54,13 +51,13 @@ const Contact = () => {
             style={{ color: theme.text }}
           >
             <a
-              href="tel:+995597233355"
+              href="tel:+995555516496"
               style={{ color: "inherit", textDecoration: "none" }}
             >
-              +995597233355
+              +995555516496
             </a>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );

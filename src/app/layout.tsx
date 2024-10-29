@@ -12,17 +12,17 @@ import SimpleSnackbar from "@/components/snackbar";
 
 export const metadata: Metadata = {
   openGraph: {
-    title: "Sarko - Events",
-    description: "Your events management solution",
-    url: "https://sarkoevents.shop",
+    title: "IQ - Night",
+    description: "Mafia night online game",
+    url: "https://iqnight.app",
     type: "website",
-    siteName: "Sarko Events",
+    siteName: "IQ Night",
     images: [
       {
         url: "/banner.webp",
         width: 800,
         height: 600,
-        alt: "Sarko Events",
+        alt: "Iq Night",
       },
     ],
   },
@@ -67,7 +67,7 @@ export default function RootLayout({
       </Head>
       <body>
         <AppContextWrapper>
-          <GoogleAnalytics gaId="G-PRTE7FTLBK" />
+          {/* <GoogleAnalytics gaId="G-PRTE7FTLBK" /> */}
           <Loading />
           <Header />
           <MobileMenu />

@@ -3,7 +3,6 @@ import Main from "@/components/main";
 import { useAppContext } from "@/context/app";
 import { usePathname } from "next/navigation";
 import Contact from "./(pages)/contact/page";
-import Gallery from "./(pages)/whatwecreate/page";
 
 export default function Home() {
   const { loading } = useAppContext();
@@ -18,8 +17,6 @@ export default function Home() {
 
       {pathname === "/" ? (
         <Main />
-      ) : pathname === "/whatwecreate" ? (
-        <Gallery />
       ) : pathname === "/contact" ? (
         <Contact />
       ) : null}

@@ -57,7 +57,7 @@ const MobileMenu = () => {
           );
         })}
       </div>
-      <div
+      {/* <div
         onClick={(e) => e.stopPropagation()}
         className="flex desktop:items-center flex-col desktop:flex-row gap-2 desktop:gap-8"
       >
@@ -107,7 +107,7 @@ const MobileMenu = () => {
         >
           Русский
         </div>
-      </div>
+      </div> */}
       <div
         onClick={(e) => e.stopPropagation()}
         className="desktop:w-1/3 flex items-center desktop:justify-center gap-4"
@@ -117,14 +117,14 @@ const MobileMenu = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebook color={theme.text} size={isMobile ? 24 : 20} />
+          <FaFacebook color={theme.text} size={isMobile ? 20 : 20} />
         </a>
         <a
           href="instagram://user?username=sarko_events"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram color={theme.text} size={isMobile ? 24 : 20} />
+          <FaInstagram color={theme.text} size={isMobile ? 20 : 20} />
         </a>
         {/* <a
           href="https://www.tiktok.com/@sarko.events"
@@ -140,33 +140,13 @@ const MobileMenu = () => {
         >
           <FaYoutube color={theme.text} size={20} />
         </a> */}
-        <a
-          href="tg://resolve?domain=DG3IK"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaTelegram color={theme.text} size={isMobile ? 24 : 20} />
-        </a>
-        <a
-          href="whatsapp://send?phone=+995597233355"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaWhatsapp color={theme.text} size={isMobile ? 24 : 20} />
-        </a>
-        {/* <a
-          href="linkedin://in/sarko-events-21438531a"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin color={theme.text} size={20} />
-        </a> */}
+
         <a
           href="mailto:sarko.events@Gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <MdEmail color={theme.text} size={isMobile ? 28 : 24} />
+          <MdEmail color={theme.text} size={isMobile ? 24 : 24} />
         </a>
       </div>
     </div>

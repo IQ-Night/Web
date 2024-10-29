@@ -103,7 +103,6 @@ export const AppContextWrapper: React.FC<contextProps> = ({ children }) => {
   const menuItems = [
     { path: "/", label: activeLanguage.main },
     { path: "/about", label: activeLanguage.about },
-    { path: "/whatwecreate", label: activeLanguage.whatWeCreate },
     { path: "/contact", label: activeLanguage.contact },
   ];
   // mobile menu state
@@ -137,51 +136,6 @@ export const AppContextWrapper: React.FC<contextProps> = ({ children }) => {
   // open request form
   const [active, setActive] = useState(false);
 
-  const gallery = [
-    {
-      id: "weddings",
-      label: activeLanguage.weddings,
-      img: "/weddings.png",
-      path: true,
-      link: "/whatwecreate/weddings",
-    },
-    {
-      id: "corporations",
-      label: activeLanguage.corporations,
-      img: "/corporation.jpg",
-      path: true,
-      link: "/whatwecreate/corporations",
-    },
-    {
-      id: "presentations",
-      label: activeLanguage.presentations,
-      img: "/presentation.png",
-      path: true,
-      link: "/whatwecreate/presentations",
-    },
-    {
-      id: "teambuildings",
-      label: activeLanguage.teambuildings,
-      img: "/teambuilding.jpg",
-      path: true,
-      link: "/whatwecreate/teambuildings",
-    },
-    {
-      id: "conferences",
-      label: activeLanguage.conferences,
-      img: "/conference.jpg",
-      path: true,
-      link: "/whatwecreate/conferences",
-    },
-    {
-      id: "other",
-      label: activeLanguage.other,
-      img: "/we.jpeg",
-      path: true,
-      link: "/whatwecreate/other",
-    },
-  ];
-
   /**
    * Alerts
    */
@@ -202,7 +156,6 @@ export const AppContextWrapper: React.FC<contextProps> = ({ children }) => {
           setMobileMenu,
           isMobile,
           colors,
-          gallery,
           active,
           setActive,
           alert,

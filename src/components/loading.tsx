@@ -1,6 +1,6 @@
 "use client";
 import { useAppContext } from "@/context/app";
-import { BarLoader } from "react-spinners";
+import { BarLoader, MoonLoader } from "react-spinners";
 
 export const Loading = () => {
   const { loading, theme } = useAppContext();
@@ -11,14 +11,9 @@ export const Loading = () => {
       className="fixed w-full z-40 h-full flex-col items-center justify-center gap-4"
     >
       <h1 style={{ color: theme.text }} className="text-[20px] font-bold">
-        Sarko-Events
+        IQ-Night
       </h1>
-      <BarLoader
-        height={6}
-        width={200}
-        color={theme.active}
-        className="rounded-full"
-      />
+      <MoonLoader size={40} color={theme.active} className="rounded-full" />
     </div>
   );
 };
