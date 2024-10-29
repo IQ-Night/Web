@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "IQ Night",
     images: [
       {
-        url: "/banner.webp",
+        url: "/images/bg.jpg",
         width: 800,
         height: 600,
         alt: "Iq Night",
