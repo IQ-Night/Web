@@ -54,8 +54,8 @@ export async function POST(req) {
     const htmlContent = await getEmailTemplate(templateData);
 
     await transporter.sendMail({
-      from: '"Sarko Events" <sarko.events@gmail.com>', // Sender address
-      to: "sarko.events@gmail.com",
+      from: '"IQ Night" <iq.night.georgia@gmail.com>', // Sender address
+      to: "iq.night.georgia@gmail.com",
       subject,
       html: htmlContent,
     });

@@ -1,6 +1,6 @@
 publish on versel
 
-git remote set-url origin https://github.com/PI-Infinity/Sarko-events.git
+git remote set-url origin https://github.com/IQ-Night/web.git
 git add .
 git commit -am "commit title"
-git push origin PI-Infinity
+git push origin IQ-Night

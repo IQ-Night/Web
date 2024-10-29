@@ -50,7 +50,7 @@ export default function RootLayout({
           href="/sarko-logo.png"
         />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-PRTE7FTLBK"
         ></script>
@@ -63,7 +63,7 @@ export default function RootLayout({
               gtag('config', 'G-PRTE7FTLBK');
             `,
           }}
-        />
+        /> */}
       </Head>
       <body>
         <AppContextWrapper>

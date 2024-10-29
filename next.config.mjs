@@ -3,7 +3,7 @@ const nextConfig = {
   pageExtensions: ["mdx", "md", "jsx", "js", "tsx", "ts"],
   reactStrictMode: false,
   images: {
-    domains: ["res.cloudinary.com", "storage.googleapis.com"],
+    // domains: ["res.cloudinary.com", "storage.googleapis.com"],
   },
   extend: {
     textShadow: {
@@ -25,8 +25,8 @@ const nextConfig = {
     },
   ],
   env: {
-    EMAIL: "sarkoevents@gmail.com",
-    EMAIL_APP_PASSWORD: "dedb ddyh cszk oxdx",
+    EMAIL: "iq.night.georgia@gmail.com",
+    EMAIL_APP_PASSWORD: "mjds epnb lpsa elan",
   },
 };
 
