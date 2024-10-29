@@ -50,14 +50,14 @@ const AboutUs = () => {
           );
         })}
         <div className="w-full desktop:w-full h-48 flex desktop:justify-center gap-[16px] mt-[24px]">
-          <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%]  w-[28%] h-[54px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
+          <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%]  w-[38%] h-[54px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
             <FaApple color="white" size={32} />
             <div>
               <p className="text-[8px]">Download on the</p>
               <h2 className="font-[700] text-[16px]">App Store</h2>
             </div>
           </div>
-          <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%] w-[28%] h-[54px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
+          <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%] w-[38%] h-[54px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
             <FaGooglePlay color="white" size={24} />
             <div>
               <p className="text-[8px]">GET IT ON</p>

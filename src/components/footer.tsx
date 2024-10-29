@@ -25,7 +25,7 @@ export const Footer = () => {
       border-t-[0.5px] border-t-[rgba(255,255,255,0.1)]
       flex-col"
     >
-      <div className="w-full flex flex-col desktop:flex-row desktop:items-center desktop:justify-between gap-[32px]">
+      <div className="w-full flex flex-col desktop:flex-row desktop:items-center desktop:justify-between gap-[24px]">
         <Link
           href="/"
           className="desktop:w-1/3 flex items-center scale-up cursor-pointer"

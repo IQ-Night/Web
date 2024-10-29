@@ -39,18 +39,18 @@ const Main = () => {
           </h1>
           <p className="text-[18px]">Play with friends</p>
           <div className="w-full h-56 flex gap-[16px] justify-center mt-[16px]">
-            <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%]  w-[36%] h-[64px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
-              <FaApple color="white" size={48} />
+            <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%]  w-[42%] h-[58px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
+              <FaApple color="white" size={44} />
               <div>
                 <p className="text-[12px]">Download on the</p>
-                <h2 className="font-[700] text-[20px]">App Store</h2>
+                <h2 className="font-[700] text-[18px]">App Store</h2>
               </div>
             </div>
-            <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%] w-[36%] h-[64px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
-              <FaGooglePlay color="white" size={44} />
+            <div className="cursor-pointer relative overflow-hidden desktop:rounded-xl rounded-lg desktop:w-[20%] w-[42%] h-[58px] flex items-center justify-center gap-[8px] bg-[black] border-[1px]">
+              <FaGooglePlay color="white" size={34} />
               <div>
                 <p className="text-[12px]">GET IT ON</p>
-                <h2 className="font-[700] text-[20px]">Google Play</h2>
+                <h2 className="font-[700] text-[18px]">Google Play</h2>
               </div>
             </div>
           </div>

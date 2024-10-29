@@ -41,7 +41,7 @@ const Header = () => {
           href="/"
           className="flex items-center gap-4 scale-up cursor-pointer"
         >
-          <div className="relative w-[140px] h-[50px] flex items-center justify-center text-[32px] font-[700] text-[white]">
+          <div className="relative h-[50px] flex items-center justify-center text-[32px] font-[700] text-[white]">
             IQ Night
           </div>
         </Link>
