@@ -14,18 +14,6 @@ const Main = () => {
   // app context
   const { isMobile, theme, loading, gallery, activeLanguage } = useAppContext();
 
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const videoRefMob = useRef<HTMLVideoElement>(null);
-  const [isLoaded, setIsLoaded] = useState(true);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.addEventListener("canplaythrough", () =>
-        setIsLoaded(true)
-      );
-    }
-  }, [videoRef]);
-
   return (
     <div
       style={{ color: theme.text }}
@@ -78,11 +66,6 @@ const Main = () => {
             }}
           />
         </div>
-        {!isLoaded && (
-          <div className="absolute top-28 right-[5%] z-20">
-            <MoonLoader size={24} color={theme.text} />
-          </div>
-        )}
       </div>
     </div>
   );

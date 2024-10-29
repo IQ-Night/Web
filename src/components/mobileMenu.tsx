@@ -2,15 +2,7 @@
 import { useAppContext } from "@/context/app";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTelegram,
-  FaTiktok,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const MobileMenu = () => {

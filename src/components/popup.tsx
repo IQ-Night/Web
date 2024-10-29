@@ -2,7 +2,6 @@
 
 import { useAppContext } from "@/context/app";
 import { useEffect } from "react";
-import RequestForm from "./request-form";
 import { MdClose } from "react-icons/md";
 
 const Popup = () => {
@@ -34,9 +33,6 @@ const Popup = () => {
         onClick={() => setActive(false)}
       >
         <MdClose color="red" size={40} />
-      </div>
-      <div className="w-full flex-1 flex justify-center slide-in-top">
-        <RequestForm />
       </div>
     </div>
   );

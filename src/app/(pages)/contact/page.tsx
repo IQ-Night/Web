@@ -1,18 +1,6 @@
 "use client";
-import Button from "@/components/button";
-import RequestForm from "@/components/request-form";
 import { useAppContext } from "@/context/app";
 import { useEffect } from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaMobile,
-  FaTelegram,
-  FaTiktok,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa";
 import { FaMobileButton } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
